@@ -1,10 +1,44 @@
 # The Rakefile does all of the real work.
-
 task :default => [:github, :heroku]
 
 desc "Run your resume locally."
 task :local do
   exec('./resume.rb')
+end
+
+desc "Convert to PDF by running resume locally."
+task :pdf do
+  require 'socket'
+  require 'timeout'
+
+  # Start local resume service
+  p_local = fork do
+    exec('./resume.rb')
+  end
+
+  # Wait for the sinatra port to open
+  port_open = true
+  while port_open
+    sleep 0.1
+    begin
+      Timeout::timeout(1) do
+        s = TCPSocket.new('localhost', 4567)
+        s.close
+        port_open = false
+      end
+    rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, Timeout::Error
+      # port still closed
+    end
+  end
+
+  # Convert to PDF
+  p_pdf = fork do
+    exec('wkhtmltopdf http://localhost:4567/index.html resume.pdf')
+  end
+  Process.waitpid(p_pdf)
+
+  # Kill the resume service
+  Process.kill('KILL', p_local)
 end
 
 # Based off of http://railspikes.com/2010/2/13/rake-task-for-deploying-to-heroku
