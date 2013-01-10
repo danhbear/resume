@@ -1,67 +1,93 @@
-# Nathaniel Welch
+# Daniel Bear
 
- * <nat@natwelch.com>
- * <http://natwelch.com>
- * 707-799-8675
+ * <danhbear@gmail.com>
+ * 310-560-0970
 
 ## Background
 
-I am a software developer with an interest in communication and design. I enjoy experimenting with new things to expand my knowledge and I believe that creating ways for people to share knowledge is one of the greatest goals for mankind. 
+I'm a software developer with an interest in user-facing products and services. I enjoy building and prototyping things quickly. My ideal is to execute new ideas while working on a variety of components and technologies at the same time -- apps, sites, and services.
 
-I strive to be a quick learner and both a competent leader and capable worker. I am an Eagle Scout and was an active officer of the Cal Poly Linux Users Group for three years. I was awarded Cal Poly's Residence Hall Council member of the year for both 2006 and 2007. In my free time I enjoy contributing to open source projects, hiking, reading and listening to music.
+Recently I've been building content navigation and video playback applications for living room devices, using web technologies with data-driven server interactions.
+
+I strive to be an independent worker and capable leader. I'm a frequent tinkerer and occasional contributer of open source libraries.
+
+I like experimenting with new languages and frameworks. Most recently I've been using JavaScript, CoffeeScript, and Python, but I have experience in Objective-C, C#, Java, ActionScript, Ruby, C/C++, and SQL.
 
 ## Education
 
-Computer Science, B.S.  
-Fall 2006 - Spring 2011  
-California Polytechnic State University, San Luis Obispo  
-
-## Proficiency
-
-I have been writing code, running servers and experimenting with new software since 2002. Most recently the majority of code I have written has been in Java, Ruby, Javascript and Bash, but I have experience in C, Python, SML/NJ, C++, SQL and F#.
+University of California, Los Angeles, 2007  
+Bachelor of Science (Computer Science, Management) _magna cum laude_
 
 ## Experience
 
-### Google.com, San Francisco, CA
+### Hulu
 
-#### Site Reliability Engineer - April 2012 to Present
+#### Principal Development Lead - July 2012 to Present
+ * Founding member of Connected Devices group, growing team to 10 developers.
+ * Led team in building Hulu Plus applications for gaming consoles, set-top boxes, TV, and Blu-ray players:
+   * New application for [PS3][], [Wii U][], and others.
+   * Original application for [PS3][PS3 v1], [Roku][], [Wii][], TiVo, Samsung, LG, Vizio, WD, RCA, and others.
+   * Client and web service application for [AppleTV][].
+   * Web service application for [Sony Bravia][].
+   * Web service that handles silent updates and application source targeting ()
+ * Provided technical guidance to Microsoft team building two versions of [Hulu Plus for Xbox 360][Xbox360]. Hulu now maintains codebase.
+ * Primary technical contact for all OEM, ODM, SoC partner interactions.
 
-I work as an SRE for Google Compute Engine and Google Cloud Storage.
+#### Software Engineer - February 2008 to July 2012
 
-#### Software Engineer - August 2011 to Present 
+##### Hulu Desktop ([link] [Hulu Desktop])
+ * Hulu browse/playback experience optimized for use with Apple or Windows Media Center remote controls.
+ * Built Flash application with custom UI and playback (ActionScript 3).
+ * Coordinated and maintained native OS host applications responsible for system functionality on Windows (C++), OS X (Objective-C), and Linux (C, GTK).
 
-I continue to maintain Punchd, post-acquisition.
+##### Misc
+ * Member of dev leads group responsible for tech recruiting, open source involvement, and company engineering practices.
+ * Wrote initial version and help maintain open sourced [Ectyper][], a Tornado-based image manipulation service
+ * Participated in a variety of Hackathon projects, three of which are used in production.
+ * Contributed to a variety of other projects: hulu.com video player (Flash, AS3), external partner analytics portal (C#, JS, extJS, Flex), internal metadata processing portal (ASP.NET), Super Bowl ad zone, etc.
 
-### Punchd, Mountain View, CA
 
-#### Software Developer - May 2011 to July 2012
+### Other
 
-I was [Punchd](http://getpunchd.com)'s backend and operations engineer until we were acquired by Google in July 2011. Once at Google I continued to maintain Punchd's servers, backend API and web frontend. I also helped implement a version of Punchd built on Google's infrastructure, but it was never released.
+#### Consultant, Deloitte & Touche LLP (6/06 - 8/06, 8/07 - 1/08)
+ * Implemented security solutions for enterprise applications and identity management packages
+ * Performed formalized testing of applications/systems and documented findings
 
-### iFixit.com, San Luis Obispo CA
+#### Web Chair/Designer, ACM Sigmobile MobiCom 2006 (12/05 - 9/06)
+ * Designed/created [website][MobiCom], coordinating updates for international organizing committee
+ * Created Google Maps app to present local area restaurants/attractions (Javascript, KML, Google Maps API)
 
-#### Software Developer - April 2009 to April 2011
+#### Senior Graphic Designer, UCLA Daily Bruin Ad Production Department (3/04 - 1/05)
+ * Conceptualized and created advertisement and page designs
+ * Performed unsupervised night post-production and final QA for daily circulation of 20,000
 
-I wore a variety of hats including -- but not limited to -- writing code to promote high quality content and a stable community, helping keep servers afloat, and working with users to develop content. I wrote code mainly in PHP and Bash, and helped maintain our fleet of servers on Amazon's EC2 Service. 
+## Side Projects
 
- * Helped create a site-wide reputation community, which began with [iFixit.com/Answers](http://ifixit.com/Answers)
- * Helped maintain various servers, located on Amazon EC2, and local development machines
- * Developed the first JavaScript widget for iFixit's API.
- * Redefined iFixit's developer work flow
+#### Bark Monitor
+ * App for iOS that monitors recorded audio and notifies user of spikes.
+ * Used APIS for microphone, battery; used Core Plot and NUI libraries.
+ * Built web portal and mailer service on Heroku.
 
-### Adobe Systems Incorporated, San Francisco CA
+#### [Wood Words][]
+ * 2500 downloads
+ * Word game for iPhone in which a drag gesture is used to highlight words in the grid of available letters.
+ * Implemented client/server high scores board, usage analytics, bug reporting on Google App Engine.
 
-#### Dreamweaver Quality Engineering Intern - Summer 2007 and 2008
+#### [Math Psychic][]
+ * 3000 downloads
+ * Simple navigation controller app that predicts the number in mind by using elementary algebra.
+ * Integrated AdMob for banner display ads.
 
- * Tested both daily builds and released versions of Dreamweaver against various operating systems -- including Mac OSX 10.4, Mac OSX 10.5, Windows Vista, and Windows XP.
- * Helped maintain the Server Matrix, Bug-base, and test a new test case application
- * Helped develop and test the Web Widgets Feature for Dreamweaver CS4, which won the "Dreamweaver Community Feature of the Year" award in 2008.
-
-### BSA Camp Oljato, Lakeshore CA
-
-#### Nature Director - Summer 2006
-#### Camp Counselor - Summer 2002, 2003 and 2004
-
- * In charge of four staff members and responsible for planning the activities behind and maintaining the entire Nature area at camp, with an average of about 200 kids every week for seven weeks per summer.
- * Taught merit badge classes such as wilderness survival, camping, hiking, and others to children ages ten to eighteen.
-
+[PS3]: http://www.hulu.com/watch/193725
+[Wii U]: http://www.hulu.com/watch/425332
+[PS3 v1]: http://www.youtube.com/watch?v=IgcbTyl1TA4
+[Roku]: http://www.hulu.com/watch/193723
+[Wii]: http://www.hulu.com/watch/330188
+[AppleTV]: http://www.hulu.com/watch/385681
+[Sony Bravia]: http://www.hulu.com/watch/230009
+[Xbox360]: http://www.hulu.com/watch/236477
+[Hulu Desktop]: http://www.hulu.com/labs/hulu-desktop
+[Ectyper]: https://github.com/hulu/ectyper
+[MobiCom]: http://www.sigmobile.org/mobicom/2006
+[Wood Words]: http://bit.ly/woodwords
+[Math Psychic]: http://bit.ly/mathpsychicgame
