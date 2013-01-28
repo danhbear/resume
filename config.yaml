@@ -9,6 +9,9 @@ user_config:
   # Must be a format supported by github-markup
   file: 'resume.md'
 
+  # The pdf output file you want to use/update
+  pdf_file: 'resume.pdf'
+
   # The google analytics key you wish to use.
   # TODO
   gkey: 'UA-37554479-1'
@@ -16,4 +19,8 @@ user_config:
 # For github pages to work, this needs to be the GitHub repository this file is
 # stored in.
 github:
+  # git url
   remote: 'git@github.com:danhbear/Resume.git'
+
+  # web ui url
+  url: 'https://github.com/danhbear/Resume'
