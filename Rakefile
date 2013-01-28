@@ -99,6 +99,8 @@ task :github do
   files = [
     'index.html',
     'resume.txt',
+    'resume.md',
+    'resume.pdf',
   ]
 
   files = files + Dir.entries("public").keep_if {|file| File.file? "public/#{file}"}
