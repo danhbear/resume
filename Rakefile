@@ -33,7 +33,7 @@ task :pdf do
 
   # Convert to PDF
   p_pdf = fork do
-    exec('wkhtmltopdf http://localhost:4567/index.html resume.pdf')
+    exec('wkhtmltopdf http://localhost:4567/index.html?print_pdf=1 resume.pdf')
   end
   Process.waitpid(p_pdf)
 

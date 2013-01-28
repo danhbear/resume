@@ -37,10 +37,14 @@
   </head>
   <body>
     <div id="resume">
-      <small class="download">Download as: 
-        <a href="<%= pdf_filename %>" target="_blank">pdf</a> | 
+      <small class="download">View resume: 
+        <% if print_pdf %>
+          <a href="<%= html_url %>" target="_blank">online</a> | 
+        <% else %>
+          <a href="<%= pdf_filename %>" target="_blank">pdf</a> | 
+        <% end %>
         <a href="<%= filename %>" target="_blank">markdown</a> | 
-        <a href="<%= github_url %>" target="_blank">github</a>.</small>
+        <a href="<%= git_url %>" target="_blank">git</a>.</small>
 
       <%= resume %>
     </div>

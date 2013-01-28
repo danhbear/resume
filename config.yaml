@@ -22,5 +22,8 @@ github:
   # git url
   remote: 'git@github.com:danhbear/Resume.git'
 
-  # web ui url
-  url: 'https://github.com/danhbear/Resume'
+  # git url
+  git_url: 'https://github.com/danhbear/Resume'
+
+  # html url
+  html_url: 'http://danhbear.github.com/Resume/'

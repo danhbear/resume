@@ -11,7 +11,7 @@ rescue LoadError
 end
 
 # Check all of the gems we need are there.
-[ "sinatra", "less", "github/markup", "yaml" ].each {|gem|
+[ "sinatra", "less", "github/markup", "yaml", "uri" ].each {|gem|
   begin
     require gem
   rescue LoadError
@@ -33,14 +33,26 @@ get '/index.html' do
   name  = settings.user_config['name']
   title = "#{name}'s Resume"
   resume = GitHub::Markup.render(rfile, File.read(rfile))
+  pdf_filename = settings.user_config['pdf_file']
+  git_url = settings.github_config['git_url']
+  html_url = settings.github_config['html_url']
+
+  print_pdf = params['print_pdf'] == '1'
+  if print_pdf
+    pdf_filename = URI.join(html_url, pdf_filename)
+    rfile = URI.join(html_url, rfile)
+  end
+
   erb :index, :locals => {
     :title => title,
     :resume => resume,
     :author => name,
     :key => settings.user_config['gkey'],
     :filename => rfile,
-    :pdf_filename => settings.user_config['pdf_file'],
-    :github_url => settings.github_config['url']
+    :pdf_filename => pdf_filename,
+    :git_url => git_url,
+    :html_url => html_url,
+    :print_pdf => print_pdf
   }
 end
 
