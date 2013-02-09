@@ -43,6 +43,11 @@ get '/index.html' do
     rfile = URI.join(html_url, rfile)
   end
 
+  # Convert <a>link</a> to icons
+  resume = resume.gsub(/\(?(<a href="[^"]*">)link<\/a>\)?/, '\1<i class="icon-external-link"></i></a>')
+  # Uncomment to convert all <a>.*</a> to icons
+  # resume = resume.gsub(/(<a href="[^"]*">)([^<]*)<\/a>/, '\2 \1<i class="icon-external-link"></i></a>')
+
   erb :index, :locals => {
     :title => title,
     :resume => resume,
