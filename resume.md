@@ -7,7 +7,7 @@
 
 I'm a software developer with an interest in user-facing products and services. I enjoy building and prototyping things quickly. My ideal is to execute new ideas while working on a variety of components and technologies at the same time -- apps, sites, and services.
 
-I like experimenting with new languages and frameworks. Lately I've been using JavaScript, CoffeeScript, Python, Objective-C, and Ruby, but I have experience in C#, Java, ActionScript, C/C++, and SQL. My recent project focus has been building content navigation and video playback applications for living room devices, using web technologies with data-driven server interactions.
+Lately I've been using JavaScript, CoffeeScript, Python, Objective-C, and Ruby, but I have experience in C#, Java, ActionScript, C/C++, and SQL. My recent project focus has been building content navigation and video playback applications for living room devices, using web technologies with data-driven server interactions.
 
 I strive to be an independent worker and capable leader. When I have free time, I enjoy family, playing guitar, cooking, taking my dogs hiking, and reading fiction.
 
