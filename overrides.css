@@ -1,0 +1,11 @@
+/**
+ * Overrides to Twitter Bootstrap CSS
+ */
+
+a:link:after, a:visited:after {
+  content: '';
+}
+
+h5: {
+  font-style: italic;
+}
