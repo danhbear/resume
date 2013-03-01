@@ -18,9 +18,7 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
 
 ## Experience
 
-### Hulu
-
-#### Principal Development Lead <small>July 2012 to Present</small>
+#### Principal Development Lead, Hulu <small>2011 to Present</small>
  * Founding member of Connected Devices group, growing team to 10 developers
  * Led team in building Hulu Plus applications for gaming consoles, set-top boxes, smart TVs, and Blu-ray players:
    * New application for [PS3][], [Wii U][], and others
@@ -31,47 +29,44 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
  * Provided technical guidance to Microsoft team building two versions of [Hulu Plus for Xbox 360][Xbox360]; Hulu now maintains codebase
  * Primary technical contact for all OEM, ODM, SoC partner interactions
 
-#### Software Engineer <small>February 2008 to July 2012</small>
-
-##### Hulu Desktop [link] [Hulu Desktop]
- * Hulu browse/playback experience optimized for use with Apple or Windows Media Center remote controls
- * Built Flash application with custom UI and playback (ActionScript 3)
- * Coordinated and maintained native OS host applications responsible for system functionality on Windows (C++), OS X (Objective-C), and Linux (C, GTK)
-
-##### Misc
+ ##### Misc
  * Member of dev leads group responsible for tech recruiting, open source involvement, and company engineering practices
  * Wrote initial version and help maintain open sourced Ectyper ([link][Ectyper]), a Tornado-based image manipulation service
  * Participated in a variety of Hackathon projects, three of which are used in production
  * Contributed to a variety of other projects: hulu.com video player (Flash, AS3), external partner analytics portal (C#, extJS, Flex), internal metadata processing portal (ASP.NET), Super Bowl ad zone, etc
 
+#### Software Engineer, Hulu <small>2008 to 2011</small>
 
-### Other
+##### Hulu Desktop [link] [Hulu Desktop]
+ * Hulu browse/playback experience optimized for use with Apple or Windows Media Center remote controls
+ * Built Flash application with custom UI and playback (ActionScript 3)
+ * Coordinated and maintained native OS host applications responsible for system functionality on Windows (C++), OS X (Objective-C), and Linux (C)
 
-#### Consultant, Deloitte & Touche LLP <small>Summer 2006, August 2007 - January 2008</small>
+#### Consultant, Deloitte & Touche LLP <small>2006, 2007 - 2008</small>
  * Implemented security solutions for enterprise applications and identity management packages
  * Performed formalized testing of applications/systems and documented findings
 
-#### Web Chair/Designer, ACM Sigmobile MobiCom 2006 <small>December 2005 - September 2006</small>
+#### Web Chair/Designer, ACM Sigmobile MobiCom 2006 <small>2005 - 2006</small>
  * Designed/created website ([link][MobiCom]), coordinating updates for international organizing committee
  * Created Google Maps app to present local area restaurants/attractions (Javascript, KML, Google Maps API)
 
-#### Senior Graphic Designer, UCLA Daily Bruin Ad Production Department <small>March 2004 - January 2005</small>
+#### Senior Graphic Designer, UCLA Daily Bruin Ad Production Department <small>2004 - 2005</small>
  * Conceptualized and created advertisement and page designs
  * Performed unsupervised night post-production and final QA for daily circulation of 20,000
 
 ## Side Projects
 
-#### Bark Monitor
- * App for iOS that monitors recorded audio and notifies user of spikes
- * Used APIS for microphone, battery; used Core Plot and NUI libraries
- * Built web portal and mailer service on Heroku
+#### Bark Monitor ([link][Bark Monitor])
+ * iPad app that monitors recorded audio and notifies user of spikes
+ * Used APIs for microphone, battery, CoreData; used Core Plot, NUI, AFNetworking libraries
+ * Built real-time web portal and mailer service (Rails, MongoDB, Bootstrap, Heroku)
 
 #### Wood Words ([link][Wood Words])
- * Word game for iPhone in which a drag gesture is used to highlight words in the grid of available letters
+ * iPhone word game in which a drag gesture is used to highlight words in the grid of available letters
  * Implemented client/server high scores board, usage analytics, and bug reporting on Google App Engine
 
 #### Math Psychic ([link][Math Psychic])
- * Simple navigation controller app that predicts the number in mind by using elementary algebra
+ * iPhone simple navigation controller app that predicts the number in mind by using elementary algebra
  * Integrated AdMob for banner display ads
 
 [PS3]: http://www.hulu.com/watch/193725
@@ -91,3 +86,4 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
 [MobiCom]: http://www.sigmobile.org/mobicom/2006
 [Wood Words]: http://bit.ly/woodwords
 [Math Psychic]: http://bit.ly/mathpsychicgame
+[Bark Monitor]: http://www.barkmonitor.com
