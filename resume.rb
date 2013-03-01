@@ -45,8 +45,12 @@ get '/index.html' do
 
   # Convert <a>link</a> to icons
   resume = resume.gsub(/\(?(<a href="[^"]*">)link<\/a>\)?/, '\1<i class="icon-external-link"></i></a>')
+
   # Uncomment to convert all <a>.*</a> to icons
   # resume = resume.gsub(/(<a href="[^"]*">)([^<]*)<\/a>/, '\2 \1<i class="icon-external-link"></i></a>')
+
+  # Convert <a> to target=_blank
+  resume = resume.gsub(/\(?(<a[^>]*)(>)/, '\1 target="_blank" \2')
 
   erb :index, :locals => {
     :title => title,

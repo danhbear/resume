@@ -7,7 +7,7 @@
 
 I'm a software developer with an interest in user-facing products and services. I enjoy building and prototyping things quickly. My ideal is to execute new ideas while working on a variety of components and technologies at the same time -- apps, sites, and services.
 
-I like experimenting with new languages and frameworks. Lately I've been using JavaScript, CoffeeScript, and Python, but I have experience in Objective-C, C#, Java, ActionScript, Ruby, C/C++, and SQL. My recent project focus has been building content navigation and video playback applications for living room devices, using web technologies with data-driven server interactions.
+I like experimenting with new languages and frameworks. Lately I've been using JavaScript, CoffeeScript, Python, Objective-C, and Ruby, but I have experience in C#, Java, ActionScript, C/C++, and SQL. My recent project focus has been building content navigation and video playback applications for living room devices, using web technologies with data-driven server interactions.
 
 I strive to be an independent worker and capable leader. When I have free time, I enjoy family, playing guitar, cooking, taking my dogs hiking, and reading fiction.
 
@@ -19,25 +19,27 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
 ## Experience
 
 #### Principal Development Lead, Hulu <small>2011 to Present</small>
- * Founding member of Connected Devices group, growing team to 10 developers
+
+##### _Projects_
  * Led team in building Hulu Plus applications for gaming consoles, set-top boxes, smart TVs, and Blu-ray players:
    * New application for [PS3][], [Wii U][], and others
    * Original application for [PS3][PS3 v1], [Roku][], [Wii][], [TiVo][], [Samsung][], [Vizio][], [WD TV][], LG, RCA, and others
    * Client and web service application for [AppleTV][]
    * Web service application for [Sony Bravia][] TV and Blu-ray players
    * Web service that handles silent updates and application source targeting
- * Provided technical guidance to Microsoft team building two versions of [Hulu Plus for Xbox 360][Xbox360]; Hulu now maintains codebase
+ * Primary technical contact for Microsoft team building two versions of [Hulu Plus for Xbox 360][Xbox360]; Hulu now maintains codebase
  * Primary technical contact for all OEM, ODM, SoC partner interactions
 
- ##### Misc
+##### _Lead_
+ * Founding member of Connected Devices group, growing team to 10 developers
  * Member of dev leads group responsible for tech recruiting, open source involvement, and company engineering practices
  * Wrote initial version and help maintain open sourced Ectyper ([link][Ectyper]), a Tornado-based image manipulation service
- * Participated in a variety of Hackathon projects, three of which are used in production
+ * Participated in Hackathon projects, three of which are used in production
  * Contributed to a variety of other projects: hulu.com video player (Flash, AS3), external partner analytics portal (C#, extJS, Flex), internal metadata processing portal (ASP.NET), Super Bowl ad zone, etc
 
 #### Software Engineer, Hulu <small>2008 to 2011</small>
 
-##### Hulu Desktop [link] [Hulu Desktop]
+##### _Hulu Desktop_ [link] [Hulu Desktop]
  * Hulu browse/playback experience optimized for use with Apple or Windows Media Center remote controls
  * Built Flash application with custom UI and playback (ActionScript 3)
  * Coordinated and maintained native OS host applications responsible for system functionality on Windows (C++), OS X (Objective-C), and Linux (C)
@@ -56,16 +58,16 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
 
 ## Side Projects
 
-#### Bark Monitor ([link][Bark Monitor])
+#### Bark Monitor <small>Present ([link][Bark Monitor]) </small>
  * iPad app that monitors recorded audio and notifies user of spikes
  * Used APIs for microphone, battery, CoreData; used Core Plot, NUI, AFNetworking libraries
  * Built real-time web portal and mailer service (Rails, MongoDB, Bootstrap, Heroku)
 
-#### Wood Words ([link][Wood Words])
+#### Wood Words <small>2010 ([link][Wood Words]) </small>
  * iPhone word game in which a drag gesture is used to highlight words in the grid of available letters
  * Implemented client/server high scores board, usage analytics, and bug reporting on Google App Engine
 
-#### Math Psychic ([link][Math Psychic])
+#### Math Psychic <small> 2009 ([link][Math Psychic]) </small>
  * iPhone simple navigation controller app that predicts the number in mind by using elementary algebra
  * Integrated AdMob for banner display ads
 
