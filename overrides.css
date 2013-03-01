@@ -9,3 +9,17 @@ a:link:after, a:visited:after {
 h5: {
   font-style: italic;
 }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-device-width: 768px) {
+  body {
+    -webkit-text-size-adjust: 150%;
+  }
+}
+ 
+/* Landscape phones and down */
+@media (max-device-width: 480px) {
+  body {
+    -webkit-text-size-adjust: 300%;
+  }
+}
