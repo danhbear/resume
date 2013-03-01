@@ -37,6 +37,10 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
  * Participated in Hackathon projects, three of which are used in production
  * Contributed to a variety of other projects: hulu.com video player (Flash, AS3), external partner analytics portal (C#, extJS, Flex), internal metadata processing portal (ASP.NET), Super Bowl ad zone, etc
 
+##### _Patents_
+ * [U.S. Patent Application 20100303440][Patent 4], Method and Apparatus for Simultaneously Playing a Media Program and an Arbitrarily Chosen Seek Preview Frame, filed May 2009
+ * 4 patents applications, currently within confidential window, filed 2012
+
 #### Software Engineer, Hulu <small>2008 to 2011</small>
 
 ##### _Hulu Desktop_ [link] [Hulu Desktop]
@@ -83,6 +87,7 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
 [AppleTV]: http://www.hulu.com/watch/385681
 [Sony Bravia]: http://www.hulu.com/watch/230009
 [Xbox360]: http://www.hulu.com/watch/236477
+[Patent 4]: http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.html&r=1&f=G&l=50&s1=%2220100303440%22.PGNR.&OS=DN/20100303440&RS=DN/20100303440
 [Hulu Desktop]: http://www.hulu.com/labs/hulu-desktop
 [Ectyper]: https://github.com/hulu/ectyper
 [MobiCom]: http://www.sigmobile.org/mobicom/2006
