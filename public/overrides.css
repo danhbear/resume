@@ -6,7 +6,7 @@ a:link:after, a:visited:after {
   content: '';
 }
 
-h5: {
+h5 {
   font-style: italic;
 }
  

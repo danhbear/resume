@@ -33,7 +33,7 @@ task :pdf do
 
   # Convert to PDF
   p_pdf = fork do
-    exec('wkhtmltopdf http://localhost:4567/index.html?print_pdf=1 resume.pdf')
+    exec('wkpdf --save-delay 1 --source "http://localhost:4567/index.html?print_pdf=1" --output resume.pdf --stylesheet-media screen --margins 25 20 30 20')
   end
   Process.waitpid(p_pdf)
 
