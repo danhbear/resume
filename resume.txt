@@ -20,7 +20,7 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
 
 #### Principal Development Lead, Hulu <small>2011 to Present</small>
 
-##### _Projects_
+##### Projects
  * Led team in building Hulu Plus applications for gaming consoles, set-top boxes, smart TVs, and Blu-ray players:
    * New application for [PS3][], [Wii U][], and others
    * Original application for [PS3][PS3 v1], [Roku][], [Wii][], [TiVo][], [Samsung][], [Vizio][], [WD TV][], LG, RCA, and others
@@ -30,20 +30,20 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
  * Primary technical contact for Microsoft team building two versions of [Hulu Plus for Xbox 360][Xbox360]; Hulu now maintains codebase
  * Primary technical contact for all OEM, ODM, SoC partner interactions
 
-##### _Lead_
+##### Lead
  * Founding member of Connected Devices group, growing team to 10 developers
  * Member of dev leads group responsible for tech recruiting, open source involvement, and company engineering practices
  * Wrote initial version and help maintain open sourced Ectyper ([link][Ectyper]), a Tornado-based image manipulation service
  * Participated in Hackathon projects, three of which are used in production
  * Contributed to a variety of other projects: hulu.com video player (Flash, AS3), external partner analytics portal (C#, extJS, Flex), internal metadata processing portal (ASP.NET), Super Bowl ad zone, etc
 
-##### _Patents_
+##### Patents
  * [U.S. Patent Application 20100303440][Patent 4], Method and Apparatus for Simultaneously Playing a Media Program and an Arbitrarily Chosen Seek Preview Frame, filed May 2009
  * 4 patents applications, currently within confidential window, filed 2012
 
 #### Software Engineer, Hulu <small>2008 to 2011</small>
 
-##### _Hulu Desktop_ [link] [Hulu Desktop]
+##### Hulu Desktop [link] [Hulu Desktop]
  * Hulu browse/playback experience optimized for use with Apple or Windows Media Center remote controls
  * Built Flash application with custom UI and playback (ActionScript 3)
  * Coordinated and maintained native OS host applications responsible for system functionality on Windows (C++), OS X (Objective-C), and Linux (C)

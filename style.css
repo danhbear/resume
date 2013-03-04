@@ -1,20 +1,116 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <style type="text/css">
-  body { text-align:center;font-family:helvetica,arial;font-size:22px;
-    color:#888;margin:20px}
-  #c {margin:0 auto;width:500px;text-align:left}
-  </style>
-</head>
-<body>
-  <h2>Sinatra doesn&rsquo;t know this ditty.</h2>
-  <img src='http://example.org/__sinatra__/404.png'>
-  <div id="c">
-    Try this:
-    <pre>get '/style.css' do
-  "Hello World"
-end</pre>
-  </div>
-</body>
-</html>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 0.9em;
+}
+
+/**
+ * Fix float problem.
+ * http://www.positioniseverything.net/easyclearing.html
+ */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.download {
+  margin-top: 100px;
+  display: block;
+  text-align: right;
+}
+
+#resume {
+  max-width: 820px;
+  min-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  border: 0;
+}
+
+h1 {
+  font-size: 170%;
+  border-top: 4px solid #E0E0E0;
+  padding-top: 0.5em;
+}
+
+h1:first-child {
+  padding-top: 0.25em;
+  border-top: none;
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 150%;
+  border-top: 4px solid #E0E0E0;
+  padding-top: 0.5em;
+}
+
+h3 {
+  margin-top: 1em;
+}
+
+p {
+   margin: 1em 0;
+   line-height: auto;
+}
+
+ul, ol {
+  margin: 1em 0 1em 2em;
+}
+
+li {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+blockquote {
+  border-left: 5px solid #E0E0E0;
+  margin: 1em 0;
+  padding-left: 0.6em;
+}
+
+a, a:visited {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  margin: 1em 0;
+  border-left: 5px solid #E0E0E0;
+  padding-left: 0.6em;
+  color: #333333;
+}
+
+dt {
+  font-weight: bold;
+  margin-left: 1em;
+}
+
+dd {
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
