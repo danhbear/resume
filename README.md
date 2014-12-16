@@ -14,7 +14,7 @@ This started as just a simple place to store a markdown format of my resume, and
  1. Install the gems [sinatra][s], [github-markup][gm], [git][g], [rack-test][rt] and [heroku][h]. The easiest way to do this is `gem install bundler && bundle install`
    * install the correct parser for [github-markup][gm], such as [rdiscount][r] for [Markdown][md].
  1. type `rake local` or `./resume.rb` to run locally.
- 1. type `rake pdf` to create resume.pdf (requires `wkpdf`).
+ 1. type `rake pdf` to create resume.pdf (requires [wkhtmltopdf][pdf]`).
  1. To deploy to Heroku
    * Run `heroku create`
    * `rake deploy` to push your resume to the internet.
@@ -26,6 +26,7 @@ This started as just a simple place to store a markdown format of my resume, and
 [r]: http://github.com/rtomayko/rdiscount
 [gm]: http://github.com/github/markup
 [md]: http://en.wikipedia.org/wiki/Markdown
+[pdf]: http://wkhtmltopdf.org
 
 ## Other cool stuff
 

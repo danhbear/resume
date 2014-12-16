@@ -11,6 +11,10 @@ task :pdf do
   require 'socket'
   require 'timeout'
 
+  marginTopBottom = 16
+  marginLeftRight = 10
+  localPort = 4567
+
   # Start local resume service
   p_local = fork do
     exec('./resume.rb')
@@ -22,7 +26,7 @@ task :pdf do
     sleep 0.1
     begin
       Timeout::timeout(1) do
-        s = TCPSocket.new('localhost', 4567)
+        s = TCPSocket.new('localhost', localPort)
         s.close
         port_open = false
       end
@@ -33,7 +37,7 @@ task :pdf do
 
   # Convert to PDF
   p_pdf = fork do
-    exec('wkpdf --save-delay 1 --source "http://localhost:4567/index.html?print_pdf=1" --output resume.pdf --stylesheet-media screen --margins 25 20 30 20')
+    exec("wkhtmltopdf -T #{marginTopBottom} -B #{marginTopBottom} -L #{marginLeftRight} -R #{marginLeftRight} 'http://localhost:#{localPort}/index.html?print_pdf=1' resume.pdf")
   end
   Process.waitpid(p_pdf)
 
