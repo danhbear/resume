@@ -44,11 +44,11 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
  * Code contributor to other projects: hulu.com video player (Flash, AS3), external partner analytics portal (C#, extJS, Flex), internal metadata processing portal (ASP.NET), Super Bowl ad zone, etc
 
 ##### Patents
+ * U.S. Patent 8775672 ([link][Patent 3]), Architecture for Simulation of Network Conditions for Video Delivery, filed June 2012
+ * U.S. Patent 9055313 ([link][Patent 5]), Device Activation Using Encoded Representation, filed May 2013
  * U.S. Patent Application 20100303440 ([link][Patent 1]), Method and Apparatus for Simultaneously Playing a Media Program and an Arbitrarily Chosen Seek Preview Frame, filed May 2009
  * U.S. Patent Application 20130339500 ([link][Patent 2]), Simulation of Network Conditions for Video Delivery, filed June 2012
- * U.S. Patent Application 20130340022 ([link][Patent 3]), Architecture for Simulation of Network Conditions for Video Delivery, filed June 2012
  * U.S. Patent Application 20140156805 ([link][Patent 4]), Remote Automated Updates for an Application, filed May 2013
- * U.S. Patent Application 20140181877 ([link][Patent 5]), Device Activation Using Encoded Representation, filed May 2013
 
 #### Software Engineer, Hulu <small>2008 to 2011</small>
 
@@ -100,9 +100,9 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
 [Xbox360]: http://www.hulu.com/watch/236477
 [Patent 1]: https://www.google.com/patents/US20100303440
 [Patent 2]: https://www.google.com/patents/US20130339500
-[Patent 3]: https://www.google.com/patents/US20130340022
-[Patent 4]: http://www.faqs.org/patents/app/20140156805
-[Patent 5]: https://www.google.com/patents/US20140181877
+[Patent 3]: https://www.google.com/patents/US8775672
+[Patent 4]: https://www.google.com/patents/US20140156805
+[Patent 5]: https://www.google.com/patents/US9055313
 [Hulu Desktop]: http://www.youtube.com/watch?v=lEGVGwF3rwI&t=2m51s
 [Ectyper]: https://github.com/hulu/ectyper
 [MobiCom]: http://www.sigmobile.org/mobicom/2006
