@@ -7,7 +7,7 @@
 
 I'm a software developer with an interest in user-facing products and services. I enjoy building and prototyping things quickly. My ideal is to work across a variety of components and technologies -- apps, sites, and services.
 
-Lately I've been using C#, JavaScript/CoffeeScript, Python, and Objective-C, but I have experience in Ruby, Java, ActionScript, C/C++, and SQL. I'm currently working on news and social content experiences for mobile and desktop. Previously I focused on video navigation and playback applications for living room devices.
+Lately I've been using C#, Objective-C, and JavaScript/CoffeeScript, but I have experience in Python, Java, Ruby, ActionScript, C/C++, and SQL. I've worked on content experiences for news and video across mobile, desktop, and living room devices. I'm always up for new challenges.
 
 I strive to be an independent worker and capable leader. When I have free time, I enjoy family, playing guitar, cooking, taking my dogs hiking, and reading fiction.
 
@@ -18,10 +18,17 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
 
 ## Experience
 
-#### Software Engineer, Flipboard <small>2013 to Present</small>
+#### Technical Lead, Snapchat <small>Present</small>
+
+ * TBA
+
+#### Software Engineer, Flipboard <small>2013 to 2015</small>
 
  * Led team that built Flipboard for [Windows 8][] and [Windows Phone][]
- * Code contributor to other projects: flipboard.com, iOS, Android, Briefing (bundled on Samsung devices)
+ * Shipped [Briefing][] app for Android phones and tablets, bundled on Samsung Galaxy S6, Note 4, and other models
+ * Contributor to Flipboard iOS app, implementing various features and bug fixes
+ * Built internal prototypes for experimental product features
+ * Code contributor to other projects: flipboard.com, Android app, internal tools, etc
  * Primary technical contact for Microsoft and Nokia
 
 #### Principal Development Lead, Hulu <small>2011 to 2013</small>
@@ -36,7 +43,7 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
  * Primary technical contact for all OEM, ODM, SoC partner interactions
 
 ##### Lead
- * Founding member of Connected Devices group, growing team to 10 developers
+ * Founding lead of Connected Devices group, growing team to 10 developers
  * Co-founded Seattle office, growing team to 30
  * Member of dev leads group responsible for tech recruiting, open source involvement, and company engineering practices
  * Wrote initial version and maintained open sourced Ectyper ([link][Ectyper]), a Tornado-based image manipulation service
@@ -44,18 +51,18 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
  * Code contributor to other projects: hulu.com video player (Flash, AS3), external partner analytics portal (C#, extJS, Flex), internal metadata processing portal (ASP.NET), Super Bowl ad zone, etc
 
 ##### Patents
+ * U.S. Patent 8775672 ([link][Patent 3]), Architecture for Simulation of Network Conditions for Video Delivery, filed June 2012
+ * U.S. Patent 9055313 ([link][Patent 5]), Device Activation Using Encoded Representation, filed May 2013
  * U.S. Patent Application 20100303440 ([link][Patent 1]), Method and Apparatus for Simultaneously Playing a Media Program and an Arbitrarily Chosen Seek Preview Frame, filed May 2009
  * U.S. Patent Application 20130339500 ([link][Patent 2]), Simulation of Network Conditions for Video Delivery, filed June 2012
- * U.S. Patent Application 20130340022 ([link][Patent 3]), Architecture for Simulation of Network Conditions for Video Delivery, filed June 2012
  * U.S. Patent Application 20140156805 ([link][Patent 4]), Remote Automated Updates for an Application, filed May 2013
- * U.S. Patent Application 20140181877 ([link][Patent 5]), Device Activation Using Encoded Representation, filed May 2013
 
 #### Software Engineer, Hulu <small>2008 to 2011</small>
 
 ##### Hulu Desktop [link] [Hulu Desktop]
  * First 10ft Hulu experience, optimized for use with Apple or Windows Media Center remote controls
  * Built Flash application with custom UI and playback (ActionScript 3)
- * Maintained native OS host applications responsible for system functionality on Windows (C++), OS X (Objective-C), and Linux (C)
+ * Maintained native OS host applications handling system functionality on Windows (C++), OS X (Objective-C), and Linux (C)
 
 #### Consultant, Deloitte & Touche LLP <small>2006, 2007 - 2008</small>
  * Implemented security solutions for enterprise applications and identity management packages
@@ -86,6 +93,7 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
 
 [Windows Phone]: http://inside.flipboard.com/2014/10/02/flipboard-arrives-on-windows-phones/
 [Windows 8]: http://inside.flipboard.com/2013/11/15/flipboard-goes-live-on-windows-8-1/
+[Briefing]: https://vimeo.com/116509613
 [PS3]: http://www.hulu.com/watch/193725
 [Wii U]: http://www.hulu.com/watch/425332
 [PS3 v1]: http://www.youtube.com/watch?v=IgcbTyl1TA4
@@ -100,9 +108,9 @@ Bachelor of Science (Computer Science, Management) _magna cum laude_
 [Xbox360]: http://www.hulu.com/watch/236477
 [Patent 1]: https://www.google.com/patents/US20100303440
 [Patent 2]: https://www.google.com/patents/US20130339500
-[Patent 3]: https://www.google.com/patents/US20130340022
-[Patent 4]: http://www.faqs.org/patents/app/20140156805
-[Patent 5]: https://www.google.com/patents/US20140181877
+[Patent 3]: https://www.google.com/patents/US8775672
+[Patent 4]: https://www.google.com/patents/US20140156805
+[Patent 5]: https://www.google.com/patents/US9055313
 [Hulu Desktop]: http://www.youtube.com/watch?v=lEGVGwF3rwI&t=2m51s
 [Ectyper]: https://github.com/hulu/ectyper
 [MobiCom]: http://www.sigmobile.org/mobicom/2006
