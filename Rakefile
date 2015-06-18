@@ -11,8 +11,8 @@ task :pdf do
   require 'socket'
   require 'timeout'
 
-  marginTopBottom = 16
-  marginLeftRight = 10
+  marginTopBottom = 14
+  marginLeftRight = 8
   localPort = 4567
 
   # Start local resume service
